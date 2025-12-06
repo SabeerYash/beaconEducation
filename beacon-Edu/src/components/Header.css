@@ -1,0 +1,23 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-area: header;
+}
+
+.logout-btn {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-btn:hover {
+  background: #d32f2f;
+}
